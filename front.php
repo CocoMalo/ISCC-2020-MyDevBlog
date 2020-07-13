@@ -10,18 +10,14 @@
         </header>
 
         <nav>
-            <a href= "front-office.php" > Accueil </a>
-            <a href= ""> Contacts </a>
-            <a href= ""> Articles </a>
+            <a href= "front.php" > Accueil </a> </br>
+            <a href= ""> Contacts </a> </br>
+            <a href= ""> Articles </a> </br>
+            <a href= ""> Article </a> </br>
         </nav>
 
         <main>
         </main>
 
-        <footer>
-        <a href= "https://github.com/CocoMalo"> Mon Git Hub </a>
-        <a href= "https://www.linkedin.com"> Linkedin </a>
-        <a href= ""> Administration </a>
-        </footer>
     </body>
 </html>
