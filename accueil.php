@@ -5,12 +5,19 @@
     </head>
 
     <body>
-
         <?php
             include "front.php"
         ?>
-
+    
         <main>
+        <ul>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+
+        </ul>
         </main>
 
         <footer>
