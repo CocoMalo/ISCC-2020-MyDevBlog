@@ -11,6 +11,7 @@
         ?>
     
     <form action="/action_page.php">
+        
         <label for="fname"> Nom </label>
         <input type="text" id="fname" name="fname">
 

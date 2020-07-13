@@ -11,9 +11,8 @@
         ?>
     
     <main>
-        <ul>
         
-        </ul>
+        <a href= "article.php"> Article </a> </br>
     </main>
     
     <footer>
