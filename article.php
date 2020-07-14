@@ -10,6 +10,10 @@
             include "front.php"
         ?>
     
+    <?php
+        function afficher_artcl ()
+    ?>
+    
     <footer>
         <?php 
         include "front-footer.php"

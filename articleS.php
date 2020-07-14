@@ -11,8 +11,20 @@
         ?>
     
     <main>
-        
-        <a href= "article.php"> Article </a> </br>
+        <section> <h2> Dernières publications </h2>
+            <a href= "article.php"> Article - Rédac </a> </br>
+            <a href= "article.php"> Article - Rédac </a> </br>
+            <a href= "article.php"> Article - Rédac </a> </br>
+            <a href= "article.php"> Article - Rédac </a> </br>
+            <a href= "article.php"> Article - Rédac </a> </br>
+            <a href= "article.php"> Article - Rédac </a> </br>
+        </section>
+
+        <section>
+            <h2> Autres articles </h2>
+            <a href= "article.php"> Joindre Basedonnée </a> </br>
+        </section>
+
     </main>
     
     <footer>
