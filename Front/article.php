@@ -11,7 +11,11 @@
         ?>
     
     <?php
-        function afficher_artcl ()
+        function afficher_artcl ($article_lien) { 
+            echo "";
+        }
+        
+        afficher_artcl();
     ?>
     
     <footer>
