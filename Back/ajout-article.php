@@ -6,6 +6,9 @@
     <head> 
 
     <body>
+        <header> <h1> My DevBlog </h1>
+        </header>
+        
         <form action="verification.php" method="POST">
                 
             <input type="text" placeholder="Titre" name="Title" required>

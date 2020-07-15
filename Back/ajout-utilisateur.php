@@ -6,6 +6,9 @@
     <head> 
 
     <body>
+        <header> <h1> My DevBlog </h1>
+        </header>
+
         <form action="/action_page.php">
         
             <label for="username"> Identifiant </label>
