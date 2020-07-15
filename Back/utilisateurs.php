@@ -23,7 +23,13 @@
                 echo $user['utilisateurs']."<br/>"; 
             }
     ?>
-    
+
+    <?php
+        function afficher_utilisateurs ($id, $Login) { 
+            echo "$id, $Login </br>";
+        }
+        afficher_utilisateurs ();
+    ?>
 
     </body>
 </html>

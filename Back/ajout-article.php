@@ -34,5 +34,9 @@
             }
         ?>
         
+        <?php
+            function ajout_article ()
+        ?>
+
     </body>
 </html>
