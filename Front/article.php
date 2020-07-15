@@ -2,6 +2,7 @@
 <html>
     <head>
         <title> Article </titles>
+        <meta charset="UTF-8">
     </head>
 
     <body>
