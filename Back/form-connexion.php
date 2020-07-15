@@ -36,45 +36,43 @@
             }
         ?>
 
-<?php
-    session_start();
-    if(isset($_POST['id']) && isset($_POST['Mot de passe']) && isset($_POST['Login'])) {
+    <?php
+        session_start();
+        if(isset($_POST['id']) && isset($_POST['Mot de passe']) && isset($_POST['Login'])) {
 
 
-        $db_id = 'id';
-        $db_Mot_de_passe = 'Mot de passe';
-        $db_Login     = 'Login';
-        $db = mysqli_connect($db_id, $db_Mot_de_passe, $db_Lofin)
+            $db_id = 'id';
+            $db_Mot_de_passe = 'Mot de passe';
+            $db_Login     = 'Login';
+            $db = mysqli_connect($db_id, $db_Mot_de_passe, $db_Lofin)
                or die('could not connect to database');
         
-        $id = mysqli_real_escape_string($db,htmlspecialchars($_POST['id'])); 
-        $Mot_de_passe = mysqli_real_escape_string($db,htmlspecialchars($_POST['Mot de passe']));
-        $Login = mysqli_real_escape_string($db,htmlspecialchars($_POST['Login']));
+            $id = mysqli_real_escape_string($db,htmlspecialchars($_POST['id'])); 
+            $Mot_de_passe = mysqli_real_escape_string($db,htmlspecialchars($_POST['Mot de passe']));
+            $Login = mysqli_real_escape_string($db,htmlspecialchars($_POST['Login']));
         
-        if($id !== "" && $Mot_de_passe !== "" && $Login !== "")
-    {
+            if($id !== "" && $Mot_de_passe !== "" && $Login !== "")
+        {
         
-        $requete = "SELECT count(*) FROM utilisateur where 
-              nom_utilisateur = '".$id."' and mot_de_passe = '".$Mot_de_passe."' and Login = '".$Login."' ";
+            $requete = "SELECT count(*) FROM utilisateur where 
+                nom_utilisateur = '".$id."' and mot_de_passe = '".$Mot_de_passe."' and Login = '".$Login."' ";
         
         
-        $exec_requete = mysqli_query($db,$requete);
-        $reponse      = mysqli_fetch_array($exec_requete);
-        $count = $reponse['count(*)'];
+            $exec_requete = mysqli_query($db,$requete);
+            $reponse      = mysqli_fetch_array($exec_requete);
+            $count = $reponse['count(*)'];
         
-        if($count!=0)
+            if($count!=0)
         {
            $_SESSION['id'] = $id;
            header('Location: articleS.php');
         }
-        else
+            else
         {
            header('Location: form-connexion.php');
         }
         }
         
-?>
-
-
+        ?>
     </body>
 </html>
