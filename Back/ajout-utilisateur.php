@@ -21,5 +21,20 @@
 
         </form>
 
+        <?php
+            $pdo = connect_to_database(MyDevBlog);
+
+            $query = $pdo->query ("SELECT * FROM utilisateurs"); 
+            $user = $query->fetch();
+            var_dump($user);
+        
+            $users = $pdo->query("SELECT * FROM utilisateurs")->fetchAl1();
+        
+            var_dump($users); 
+            foreach ($users as $user) { 
+                echo $user['utilisateurs']."<br/>"; 
+            }
+        ?>
+
     </body>
 </html>
