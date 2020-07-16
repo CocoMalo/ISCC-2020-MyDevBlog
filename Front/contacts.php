@@ -30,7 +30,7 @@
 
 <footer>
         <?php 
-        include "front-footer.php"
+         include "front-footer.php"
         ?>
     </footer>
 

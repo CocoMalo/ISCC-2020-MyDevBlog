@@ -30,10 +30,10 @@
 
             
     </main>
-    
-    <footer>
+   
+<footer>
         <?php 
-        include "front-footer.php"
+        require "front-footer.php"
         ?>
     </footer>
 
