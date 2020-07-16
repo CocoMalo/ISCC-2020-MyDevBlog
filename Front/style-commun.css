@@ -1,0 +1,20 @@
+@font-face { 
+    font-family: "arial-rounded-MT-bold";
+    src: url("arial-rounded-MT-bol.ttf");}
+
+header {font-family: "arial-rounded-MT-bol";}
+header {background-color: #83858994; }
+header {text-align: center;}
+header section {text-align: left;}
+
+
+main {margin-right: 5%; margin-left: 5%;}
+
+
+main {font-family: "arial-rounded-MT-bol";}
+
+
+footer {font-family: "arial-rounded-MT-bol";}
+
+
+form {font-family: "arial-rounded-MT-bol";}

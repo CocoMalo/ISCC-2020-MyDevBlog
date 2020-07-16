@@ -2,12 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="./style-commun.css">
+        <link rel="stylesheet" href="style-commun.css">
     </head>
 
     <body>
         <header>
-            <h1> My Dev Blog </h1>
+            <section> <img src= "BigHit.png" width= "180" height= "85"> </section>
+            <h1> Big Hit DevBlog </h1>
         </header>
 
         <nav>

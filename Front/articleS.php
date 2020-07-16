@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Articles </titles>
+        <title> Articles </title>
         <meta charset="UTF-8">
     </head>
 
