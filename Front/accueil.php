@@ -6,7 +6,8 @@
     </head>
 
     <body>
-        <?php
+        
+    <?php
             include "front.php"
          ?>
     
@@ -35,11 +36,10 @@
         </main>
  
 <footer>
-        <?php
-        include "front-footer.php"
+        <?php 
+         include "front-footer.php"
         ?>
     </footer>
 
     </body>
-
 </html>
