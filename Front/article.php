@@ -10,14 +10,7 @@
     <?php
             include "front.php"
         ?>
-    
-    <?php
-        function afficher_artcl ($article_lien) { 
-            echo "";
-        }
-        
-        afficher_artcl();
-    ?>
+
     
     <footer>
         <?php 
