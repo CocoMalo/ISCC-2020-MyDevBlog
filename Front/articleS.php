@@ -29,18 +29,17 @@
             <h2> Articles </h2>
 
             <?php
-                
-                echo "<ul>"
+
+                echo "<ul>";
+
                 foreach ($article as $article) { 
                     
                     echo "<li>" ;
                     echo $article ["titre"]."<br/>";
-                    echo ""<a href="'front.php?page=article. & id=". $article ["id"]."'".$article["titre"]." </a>" ;
+                    echo "<a href= "'front.php?page=article. & id= ".$article ["id"]."'> ".$article["titre"]." </a>"" ; 
                     echo "</li>"
                 }
                     echo "</ul>"
-
-
 
 
                 echo "<a href= "article.php"> $query </a>" ;
