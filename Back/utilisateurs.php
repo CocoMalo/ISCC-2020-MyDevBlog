@@ -6,8 +6,9 @@
     <head> 
 
     <body>
-        <header> <h1> My DevBlog </h1>
-        </header>
+        <?php
+            include "front.php"
+        ?>
 
     <?php
             $pdo = connect_to_database(MyDevBlog);
