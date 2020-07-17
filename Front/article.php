@@ -12,6 +12,9 @@
             include "front.php"
         ?>
 
+    <main>
+    
+    </main>
     
     <footer>
         <?php 
